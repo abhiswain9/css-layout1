@@ -16,6 +16,7 @@ body {
     top: 100px;
     left: 50px;
     position: absolute;
+    border-color: red;
 }
 
 .box2 {
@@ -23,6 +24,7 @@ body {
     top: 100px;
     left: 500px;
     position: absolute;
+    border-color: red;
 }
 
 .box3 {
@@ -30,6 +32,7 @@ body {
     top: 100px;
     left: 950px;
     position: absolute;
+    border-color: red;
 }
 
 
