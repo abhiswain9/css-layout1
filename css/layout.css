@@ -2,40 +2,53 @@
 
 
 body {
+  padding-top: 80px;
 }
 
 .heading {
   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 20px;
+  border-bottom: 2px solid #222;
 }
 
 .heading h1 {
+    margin: 10px 0;
 }
 
-.box1 {
-    width: 400px;
-    top: 100px;
-    left: 50px;
-    position: absolute;
-    border-color: red;
+.box {
+  float: left;
+  width: 32%;
+  margin-right: 1.5%;
+  margin-bottom: 100px;
 }
 
-.box2 {
-   width: 400px;
-    top: 100px;
-    left: 500px;
-    position: absolute;
-    border-color: red;
+.box:last-child {
+  margin-right: 0;
 }
 
-.box3 {
-   width: 400px;
-    top: 100px;
-    left: 950px;
-    position: absolute;
-    border-color: red;
+.box h2 {
+}
+
+.box img {
+  width: 100%;
+}
+
+.box a.read-more {
+  display: block;
+  margin-top: 5px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
 }
 
 
 .footer {
-    position: fixed;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 20px;
+  border-top: 2px solid #eee;
 }
